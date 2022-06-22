@@ -37,6 +37,7 @@ Debug version can be executable by following command:
 Debug version returns output between 1-10 including the array status for each loop cycle. The result should be like
 
 > You are executing debug version
+> 
 > **--------------Iteration 1-----------------**
 > Value of i variable        = 10
 > 
