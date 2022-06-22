@@ -4,11 +4,11 @@ set -euo pipefail
 case "$1" in 
 stable)
     echo "You are executing stable version"
-    $(which bash) versions/stable.sh
+    $(which bash) ~/sketch-up/versions/stable.sh
     ;;
 debug)
     echo "You are executing debug version"
-    $(which bash) versions/debug.sh
+    $(which bash) ~/sketch-up/versions/debug.sh
     ;;
 help)
 	

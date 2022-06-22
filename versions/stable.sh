@@ -35,7 +35,7 @@ do
     for element in "${arr[@]}"
     do
       arr[cnt]="$element"
-      ((cnt++))
+      let cnt++
     done
   fi
   ## When the result of above 'for loop' generates an array with unnecessary elements at the end, 
