@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-set -euo pipefail
+set -eo pipefail
 
 case "$1" in 
 stable)
